@@ -1,0 +1,162 @@
+[
+    {
+    "id": 1,
+    "titulo": "Remera Nike",
+    "precio_usd": 29.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera de marca Nike, fabricada con materiales de alta calidad y diseño moderno.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 2,
+    "titulo": "Remera Adidas",
+    "precio_usd": 24.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera deportiva de la reconocida marca Adidas, ideal para actividades físicas y uso diario.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 3,
+    "titulo": "Remera Puma",
+    "precio_usd": 19.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera cómoda y ligera de la marca Puma, perfecta para lucir un estilo casual y deportivo.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 4,
+    "titulo": "Remera Reebok",
+    "precio_usd": 22.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera clásica de la reconocida marca Reebok, ideal para un look retro y urbano.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 5,
+    "titulo": "Remera Under Armour",
+    "precio_usd": 26.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera de alto rendimiento de la marca Under Armour, perfecta para actividades deportivas intensas.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 6,
+    "titulo": "Remera Vans",
+    "precio_usd": 18.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera con el icónico logotipo de la marca Vans, ideal para los amantes del estilo skater.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 7,
+    "titulo": "Remera Converse",
+    "precio_usd": 21.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera de estilo urbano de la famosa marca Converse, perfecta para un look casual y moderno.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 8,
+    "titulo": "Remera Lacoste",
+    "precio_usd": 31.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera elegante de la reconocida marca Lacoste, ideal para ocasiones formales y casuales.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 9,
+    "titulo": "Remera Tommy Hilfiger",
+    "precio_usd": 27.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera de estilo clásico de la marca Tommy Hilfiger, perfecta para un look sofisticado.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 10,
+    "titulo": "Remera Calvin Klein",
+    "precio_usd": 23.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Remera minimalista de la famosa marca Calvin Klein, ideal para un estilo moderno y sencillo.",
+    "categoria": "remeras"
+    },
+    {
+    "id": 11,
+    "titulo": "Pantalon Nike",
+    "precio_usd": 39.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Pantalon de marca Nike, fabricado con materiales de alta calidad y diseño moderno.",
+    "categoria": "pantalones"
+    },
+    {
+    "id": 12,
+    "titulo": "Pantalon Adidas",
+    "precio_usd": 29.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Pantalon deportivo de la reconocida marca Adidas, ideal para actividades físicas y uso diario.",
+    "categoria": "pantalones"
+    },
+    {
+    "id": 13,
+    "titulo": "Pantalon Puma",
+    "precio_usd": 29.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Pantalon cómodo y ligero de la marca Puma, perfecto para lucir un estilo casual y deportivo.",
+    "categoria": "pantalones"
+    },
+    {
+    "id": 14,
+    "titulo": "Pantalon Reebok",
+    "precio_usd": 32.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Pantalon clásico de la reconocida marca Reebok, ideal para un look retro y urbano.",
+    "categoria": "pantalones"
+    },
+    {
+    "id": 15,
+    "titulo": "Pantalon Under Armour",
+    "precio_usd": 28.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Pantalon de alto rendimiento de la marca Under Armour, perfecto para actividades deportivas intensas.",
+    "categoria": "pantalones"
+    },
+    {
+    "id": 16,
+    "titulo": "Zapatillas Vans",
+    "precio_usd": 59.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Zapatillas con el icónico logotipo de la marca Vans, ideales para los amantes del estilo skater.",
+    "categoria": "zapatillas"
+    },
+    {
+    "id": 17,
+    "titulo": "Zapatillas Converse",
+    "precio_usd": 47.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Zapatillas de estilo urbano de la famosa marca Converse, perfectas para un look casual y moderno.",
+    "categoria": "zapatillas"
+    },
+    {
+    "id": 18,
+    "titulo": "Zapatillas Gucci",
+    "precio_usd": 119.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Zapatillas elegantes de la reconocida marca Gucci, ideales para ocasiones formales y casuales.",
+    "categoria": "zapatillas"
+    },
+    {
+    "id": 19,
+    "titulo": "Zapatillas Nike",
+    "precio_usd": 89.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Zapatillas de estilo clásico de la marca Nike, perfectas para un look sofisticado.",
+    "categoria": "zapatillas"
+    },
+    {
+    "id": 20,
+    "titulo": "Zapatillas Adidas",
+    "precio_usd": 84.99,
+    "foto": "https://via.placeholder.com/400x300",
+    "descripcion": "Zapatillas minimalistas de la famosa marca Adidas, ideales para un estilo moderno y sencillo.",
+    "categoria": "zapatillas"
+    }
+]

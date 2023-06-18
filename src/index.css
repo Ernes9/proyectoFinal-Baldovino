@@ -1,0 +1,368 @@
+/* ------------------------------------------------------------------------------------- */
+/* --------------------------------------- GLOBAL -------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* --------------------------------------- NAVBAR -------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+ul li{
+  list-style-type: none;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 123, 255);
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar li a{
+  font-size: 22px;
+  color: white;
+  padding: 0 50px;
+  text-decoration: none;
+}
+
+.cartItem{
+  display: flex;
+  align-items: center;
+}
+
+.cartItem img{
+  width: 48px;
+}
+
+.cartCount {
+  color: #000;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------- ITEMS VIEW ------------------------------------ */
+/* ------------------------------------------------------------------------------------- */
+
+.itemList{
+  width: 90%;
+  margin: auto;
+}
+
+
+.main-title{
+  text-align: center;
+}
+
+.productos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.card-content .button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card-content .button:hover {
+  background-color: #0056b3;
+}
+
+.product-card {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ---------------------------------- PRODUCT DETAILS ---------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+.product-details{
+  padding-left: 50px;
+}
+
+.product-details h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details .button {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.agregar-al-carrito .button:hover,  .item-count button:hover{
+  background-color: #0056b3;
+}
+
+.item-count{
+  display: flex;
+  align-items: center;
+}
+
+.item-count p{
+  margin: 0 10px;
+}
+
+.item-count button{
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  background-color: #007bff;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ---------------------------------- TABLA CART VIEW ---------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+.titleCarrito{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.table {
+  border-spacing: 0;
+  border-radius: 5px;
+  border: solid 1px #007bff;  
+  width: 95%;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0px 0px 8px #000;
+}
+
+.th, .td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.th {
+  background-color: #0056b3;
+  color: #fff;
+  margin: 8px auto;
+}
+
+.td{
+  line-height: 56px;
+}
+
+.tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tr:hover {
+  background-color: #ddd;
+}
+
+.imagenCart{
+  height: 128px;
+}
+
+.imagenRemove{
+  cursor: pointer; 
+  width: 32px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ------------------------------------ FORMULARIO ------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+
+.checkout-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+  width: 400px;
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  color: #0056b3;
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: #ffffff;
+  width: fit-content;
+}
+
+.coolinput input[type=text].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #0056b3 solid;
+  border-radius: 5px;
+  background: #e8e8e8;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+
+/* --- BOTON --- */
+
+.form-button {
+  margin: 20px 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  padding: 1em 2em;
+  font-weight: 500;
+  background: #1F2937;
+  color: white;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  cursor: pointer;
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0.6em;
+  margin-top: -0.25em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+}
+
+.label {
+  position: relative;
+  top: -1px;
+}
+
+.transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: #0056b3;
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-button:hover .transition {
+  width: 14em;
+  height: 14em;
+}
+
+.form-button:active {
+  transform: scale(0.97);
+}
