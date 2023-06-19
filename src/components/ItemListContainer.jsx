@@ -19,18 +19,22 @@ function ItemListContainer(){
         } else {
             setTitulo("Productos");
         }
-
+    
+    
+    // Hay 2 setTimeouts para solucionar un error de la carga de productos
     setTimeout(() => {
             const productosRef = collection(db, "productos");
             const q = categoria ? query(productosRef, where("category", "==", categoria)) : productosRef;
             const productsSnapshot = getDocs(q);
-            productsSnapshot.then((resp) => {
-                setProductos(resp.docs.map((doc) => {
-                        return {...doc.data(), id: doc.id}
-                    })
-                )
-            })
-            setIsLoading(false);
+            setTimeout(() => {
+                productsSnapshot.then((resp) => {
+                    setProductos(resp.docs.map((doc) => {
+                            return {...doc.data(), id: doc.id}
+                        })
+                    )
+                })
+                setIsLoading(false);
+            }, 500);
         }, 500);
 
     }, [categoria]);
