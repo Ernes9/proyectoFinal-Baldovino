@@ -4,7 +4,7 @@ import remove from "../assets/remove.png";
 import CheckoutForm from "./CheckoutForm";
 import Swal from 'sweetalert2';
 import { createOrder } from "../firebase/firebase";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export const CartView = () => {
@@ -40,6 +40,8 @@ export const CartView = () => {
     }
   }
 
+  
+
   return (
     <div>
       {Object.keys(cart).length > 0 ? (
@@ -61,7 +63,7 @@ export const CartView = () => {
                   <td className="td">{producto.name}</td>
                   <td className="td">{producto.count}</td>
                   <td className="td"> <img className="imagenCart" src={producto.img} alt={producto.name} /></td>
-                  <td className="td">${producto.count * producto.price}</td>
+                  <td className="td">${(producto.count * producto.price).toFixed(2)}</td>
                   <td className="td"><a onClick={() => removeItem(producto.id)}><img className="imagenRemove" src={remove} alt="imagen remover" /></a></td>
                 </tr>
               ))}

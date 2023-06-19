@@ -17,7 +17,7 @@ function NavBar(){
             <CartWidget/>
         </div>
     )
-}
+};
 
 function CartWidget() {
     const { countItems } = useContext(cartContext);

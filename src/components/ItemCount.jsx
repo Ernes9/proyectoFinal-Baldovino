@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export const ItemCount = ({ onAddToCart }) => {
     const [count, setCount] = useState(1);
@@ -23,4 +23,4 @@ export const ItemCount = ({ onAddToCart }) => {
             </div>
         </div>
     )
-}
+};

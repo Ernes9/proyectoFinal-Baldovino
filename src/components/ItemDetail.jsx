@@ -4,12 +4,11 @@ import { useContext } from "react";
 
 const ItemDetail = ({item}) => {
 
-const { addItem } = useContext(cartContext)
+const { addItem } = useContext(cartContext);
 
     function onAddToCart(count) {
         addItem(item, count);
-        console.log(count)
-    }
+    };
 
     return(
         <div className="product-card">
@@ -25,6 +24,6 @@ const { addItem } = useContext(cartContext)
             </div>
         </div>
     )
-}
+};
 
 export default ItemDetail;

@@ -1,9 +1,17 @@
 import Item from "./Item";
 import { capitalize } from "../helpers/capitalize";
+import Loader from "./Loader";
 
-const ItemList = ({ productos, titulo }) => {
 
-    if (productos.length === 0) return <h2>No encontramos productos</h2>;
+const ItemList = ({ isLoading, productos, titulo }) => {
+    
+    if (isLoading) return <Loader/>
+
+
+    // Si no lo meto en un setTimeout me aparece despues del loader
+    setTimeout(() => {
+        if (productos.length === 0 && isLoading == false) return <h2 style={{display: "flex", flexDirection: "row", justifyContent:"center"}}>No encontramos productos</h2>;     
+    }, 1000);
 
 
     return(
@@ -14,6 +22,6 @@ const ItemList = ({ productos, titulo }) => {
             </div>
         </div>
     )
-}
+};
 
 export default ItemList;

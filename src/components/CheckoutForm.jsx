@@ -17,7 +17,6 @@ export default function CheckoutForm({handleConfirm}){
             }) 
         } else {
             e.preventDefault();
-            console.log(userData);
             handleConfirm(userData);
         }
     }
@@ -77,4 +76,4 @@ export default function CheckoutForm({handleConfirm}){
 
 
     )
-}
+};

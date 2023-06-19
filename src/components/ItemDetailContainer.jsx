@@ -20,7 +20,7 @@ const ItemDetailContainer = () => {
                 )
             })
 
-    }, [id])
+    }, [id]);
     
 
     return(
@@ -28,6 +28,6 @@ const ItemDetailContainer = () => {
             {item && <ItemDetail item={item} key={item.id}/>}
         </div>
     )
-}
+};
 
 export default ItemDetailContainer;
